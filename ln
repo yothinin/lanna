@@ -1,0 +1,97 @@
+// Tai Tham keyboard map
+// Copyright (C) 2011 Theppitak Karoonboonyanan
+//
+// Permission to use, copy, modify, distribute, and sell this software and its
+// documentation for any purpose is hereby granted without fee, provided that
+// the above copyright notice appear in all copies and that both that
+// copyright notice and this permission notice appear in supporting
+// documentation, and that the name of the copyright holder(s) not be used in
+// advertising or publicity pertaining to distribution of the software without
+// specific, written prior permission.  The copyright holder(s) makes no
+// representations about the suitability of this software for any purpose.  It
+// is provided "as is" without express or implied warranty.
+// 
+// THE COPYRIGHT HOLDER(S) DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE,
+// INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS, IN NO
+// EVENT SHALL THE COPYRIGHT HOLDER(S) BE LIABLE FOR ANY SPECIAL, INDIRECT OR
+// CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE,
+// DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER
+// TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+// PERFORMANCE OF THIS SOFTWARE.
+//
+
+
+partial default alphanumeric_keys 
+xkb_symbols "basic" {
+    name[Group1]= "Tai Tham";
+    key <TLDE> {	[ 0x1001aa5,	0x1001aac	]	};
+    key <AE01> {type[Group1]="THREE_LEVEL",
+			[ 0x1001a40,	0x1001a64,	0x1001a81]	};
+    key <AE02> {type[Group1]="THREE_LEVEL",
+			[ 0x1001a5b,	0x1001a91,	0x1001a82]	};
+    key <AE03> {type[Group1]="THREE_LEVEL",
+			[ 0x1001a5a,	0x1001a92,	0x1001a83]	};
+    key <AE04> {type[Group1]="THREE_LEVEL",
+			[ 0x1001a3d,	0x1001a93,	0x1001a84]	};
+    key <AE05> {type[Group1]="THREE_LEVEL",
+			[ 0x1001a33,	0x1001a94,	0x1001a85]	};
+    key <AE06> {type[Group1]="THREE_LEVEL",
+			[ 0x1001a69,	0x1001a6a,	0x1001a86]	};
+    key <AE07> {type[Group1]="THREE_LEVEL",
+			[ 0x1001a67,	0x1001a58,	0x1001a87]	};
+    key <AE08> {type[Group1]="THREE_LEVEL",
+			[ 0x1001a23,	0x1001a95,	0x1001a88]	};
+    key <AE09> {type[Group1]="THREE_LEVEL",
+			[ 0x1001a32,	0x1001a96,	0x1001a89]	};
+    key <AE10> {type[Group1]="THREE_LEVEL",
+			[ 0x1001a27,	0x1001a97,	0x1001a80]	};
+    key <AE11> {	[ 0x1001a21,	0x1001a98	]	};
+    key <AE12> {	[ 0x1001a29,	0x1001a99	]	};
+
+    key <AD01> {	[ 0x1001aa7,	0x1001a90	]	};
+    key <AD02> {	[ 0x1001a72,	0x1001a54	]	};
+    key <AD03> {	[ 0x1001a73,	0x1001a4f	]	};
+    key <AD05> {	[ 0x1001a61,	0x1001a35	]	};
+    key <AD06> {	[ 0x1001a62,	0x1001a74	]	};
+    key <AD07> {	[ 0x1001a66,	0x1001a4d	]	};
+    key <AD08> {	[ 0x1001a41,	0x1001a31	]	};
+    key <AD09> {type[Group1]="THREE_LEVEL",
+    			[ 0x1001a36,	0x1001aaa,	0x1001aab]	};
+
+    key <AD04> {	[ 0x1001a3b,	0x1001a2f,	0x1001A5B]	};
+
+    key <AD10> {	[ 0x1001a3f,	0x1001a2c,	0x1001a5a]	};
+    key <AD11> {	[ 0x1001a37,	0x1001a2e	]	};
+    key <AD12> {type[Group1]="THREE_LEVEL",
+			[ 0x1001a43,	0x1001a56,	0x1001a53]	};
+
+    key <AC01> {	[ 0x1001a3c,	0x1001a42	]	};
+    key <AC02> {	[ 0x1001a49,	0x1001a25	]	};
+    key <AC03> {type[Group1]="THREE_LEVEL",
+			[ 0x1001a20,	0x1001a2d,	0x1000324]	};
+    key <AC04> {type[Group1]="THREE_LEVEL",
+    			[ 0x1001a2f,	0x1001a70,	0x1001a52]	};
+    key <AC05> {	[ 0x1001a6e,	0x1001a2b	]	};
+    key <AC06> {	[ 0x1001a76,	0x1001a6b	]	};
+    key <AC07> {	[ 0x1001a75,	0x1001a4e	]	};
+    key <AC08> {	[ 0x1001a63,	0x1001a47	]	};
+    key <AC09> {	[ 0x1001a48,	0x1001a46	]	};
+    key <AC10> {	[ 0x1001a45,	0x1001a2a	]	};
+    key <AC11> {	[ 0x1001a26,	0x1001a59	]	};
+
+    key <AB01> {	[ 0x1001a39,	0x1001a55	]	};
+    key <AB02> {	[ 0x1001a38,	0x1001a51	]	};
+    key <AB03> {	[ 0x1001a6f,	0x1001a28	]	};
+    key <AB04> {	[ 0x1001a4b,	0x1001a4c	]	};
+    key <AB05> {	[ 0x1001a65,	0x1001a60	]	};
+    key <AB06> {	[ 0x1001a68,	0x1001a7a	]	};
+    key <AB07> {	[ 0x1001a34,	0x1001a50	]	};
+    key <AB08> {	[ 0x1001a3e,	0x1001a30	]	};
+    key <AB09> {	[ 0x1001a53,	0x1001a4a 	]	};
+    key <AB10> {	[ 0x1001a3a,	0x1001a44	]	};
+
+    key <BKSL> {	[ 0x1001a22,	0x1001a24	]	};
+
+    include "level3(ralt_switch)"
+};
+

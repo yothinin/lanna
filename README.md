@@ -7,7 +7,7 @@ Lanna unicode layout for Ubuntu.
 ᪂ ᨠᩯ᩶ᨡᩲᨼᩲᩖ᩺ /usr/share/X11/xkb/rules/evdev.xml ᨲᩮᩥ᩠᩵ᩋᨾᨡᩴ᩠᩶ᩋᨾᩪᩃᨯᩢ᩠ᨦᨶᩦᩢ
    <layoutList>
      <layout>
-      <configItem>
+        <configItem>
         <name>ln</name>
         <!-- Keyboard indicator for Lanna layouts -->
         <shortDescription>ln</shortDescription>
